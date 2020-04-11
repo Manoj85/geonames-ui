@@ -1,0 +1,42 @@
+@import "../../../../styles/variables";
+
+
+.topbar-wrapper {
+  position: sticky;
+  top: 0;
+  -webkit-app-region: drag;
+  align-items: center;
+  display: flex;
+  flex: 0.37;
+  color: $accentColor;
+  flex-shrink: 0;
+  font-family: "Overpass";
+  font-weight: 600;
+  padding: 8px;
+  line-height: 18px;
+  background: rgba(0,0,0,0.35);
+
+
+  .title {
+    color: $accentColor;
+    flex: 8;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+}
+
+.bg {
+  background-color: black !important;
+}
+
+.vader-icon svg:hover {
+  cursor: pointer;
+}
+
+.vader-window-icon-group {
+  border: 1px solid #333;
+  border-radius: 7px;
+  opacity: 0.5;
+  padding: 0.25rem 0.5rem;
+  background-color: #000;
+}
